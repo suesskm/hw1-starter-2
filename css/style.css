@@ -1,0 +1,33 @@
+.flex-container{
+    display:flex;
+    background-color: beige; 
+    flex-direction: column;
+    /*shifts items on main axis */
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.flex-item{
+    width: 300px; 
+    height: 300px;
+    padding: 10px;
+    padding-top: 15px;
+    background-color: cadetblue; 
+    margin: 10px;
+    text-align:center;
+    border: 5px solid pink;
+    border-radius: 5px; 
+
+    
+}
+
+#bubble{
+    width: 75%;
+}
+
+#clickButton{
+    margin-top: 40%; 
+    padding: 20px;
+    border: 1px solid yellow; 
+}
